@@ -1,0 +1,23 @@
+{
+  "name": "biolerplate-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server":"node index.js",
+    "client" :"cd client && npm start",
+    "client-install":"cd client && npm install",
+    "start":"concurrently \"npm run server\" \" npm run client \" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
