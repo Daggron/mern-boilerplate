@@ -1,33 +1,25 @@
-# mern-boilerplate
-a boilerplate code for mern stack web-app development
+# MERN Boilerplate
+Boilerplate code for MERN stack web application development.
 
-### the sole purpose of this is app to provide the developer the boilerplate code for the mern stack developement
+Clone the repo or download it and run the scripts
 
-simply clone the repo or download it and run the scripts
+## Available scripts
 
-Available scripts
+### `npm run client`
 
-- npm run client 
-    ```
-    This would fire the react developmental server up on port 3000
-    ```
+Run the react developmental server on port 3000.
 
-- npm run client-install
 
-    ```
-    This will instll the client side dependencies (node_modules)
-    ```
+### `npm run client-install`
 
-- npm run dev 
+This will install the client side dependencies `(node_modules)`.
 
-    ``` 
-    this would fire the node server up on port 4000
 
-    ```
+### `npm run dev`
 
-- npm run start or npm start
+Run the node server on port 4000.
 
-    ``` 
-    This would concurrently firesup both the reac server and node server so you don't have to fire them up seperately and save time 
 
-    ```
+### `npm run start` or `npm start`
+
+This will concurrently run both; react server and node server to save time.
