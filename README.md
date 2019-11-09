@@ -1,5 +1,5 @@
 # MERN Boilerplate
-Boilerplate code for MERN stack web application development.
+
 
 Clone the repo or download it and run the scripts
 
